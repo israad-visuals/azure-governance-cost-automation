@@ -1,0 +1,20 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.local/
+private/
+
+# Terraform working files, inputs and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Unreviewed evidence and local files
+evidence/raw/
+.DS_Store
